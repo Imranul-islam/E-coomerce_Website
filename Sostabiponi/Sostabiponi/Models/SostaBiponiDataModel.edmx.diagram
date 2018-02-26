@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="efc2ad8f86154e338420c091449fcfa4" Name="Diagram1" ZoomLevel="21">
+        <EntityTypeShape EntityType="SostabiponiModel.admin_Employee" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.admin_Login" Width="1.5" PointX="10" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Category" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Customer" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.genMainSlider" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.genPromoRight" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Order" Width="1.5" PointX="5.25" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.OrderDetail" Width="1.5" PointX="7.5" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Payment" Width="1.5" PointX="3" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.PaymentType" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Product" Width="1.5" PointX="5.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.RecentlyView" Width="1.5" PointX="10.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Review" Width="1.5" PointX="7.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Role" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.ShippingDetail" Width="1.5" PointX="3" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.SubCategory" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Supplier" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SostabiponiModel.Wishlist" Width="1.5" PointX="10.5" PointY="12.5" IsExpanded="true" />
+        <AssociationConnector Association="SostabiponiModel.FK_admin_Login_admin_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_admin_Login_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_genPromoRight_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_SubCategory_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Order_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_RecentlyViews_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Review_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Wishlist_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Order_Payment" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Order_ShippingDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_OrderDetails_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Payment_PaymentType" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Products_SubCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_RecentlyViews_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Review_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="SostabiponiModel.FK_Wishlist_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
